@@ -27,4 +27,4 @@ spec:
       - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
         name: apexsaas
         ports:
-        - containerPort: 33480
+        - containerPort: 3480
