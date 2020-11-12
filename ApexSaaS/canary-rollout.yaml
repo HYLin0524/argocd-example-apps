@@ -12,7 +12,7 @@ spec:
       - setWeight: 20
       - pause: {duration: 60}
       - setWeight: 40
-      - pause: {duration: 10} # pause indefinitely
+      - pause: {duration: 60} # pause indefinitely
       - setWeight: 80
       - pause: {}
   selector:
