@@ -3,7 +3,7 @@ kind: Rollout
 metadata:
   name: apexsaas
 spec:
-  replicas: 10
+  replicas: 5
   strategy:
     canary: #Indicates that the rollout should use the Canary strategy
       maxSurge: "25%"
