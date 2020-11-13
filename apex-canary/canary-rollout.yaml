@@ -12,9 +12,9 @@ spec:
       - setWeight: 20
       - pause: {duration: 10}
       - setWeight: 40
-      - pause: {duration: 10} # pause indefinitely
+      - pause: {duration: 10} 
       - setWeight: 80
-      - pause: {duration: 10}
+      - pause: {}  # pause indefinitely
   selector:
     matchLabels:
       app: apexsaas
@@ -24,7 +24,7 @@ spec:
         app: apexsaas
     spec:
       containers:
-      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
+      - image: gcr.io/heptio-images/ks-guestbook-demo:0.1
         name: apexsaas
         ports:
         - containerPort: 3480
