@@ -7,6 +7,6 @@ spec:
   ports:
   - port: 80
     targetPort: 80
-    nodePort: 31888
+    nodePort: 31999
   selector:
     app: apexdemo
